@@ -1,5 +1,5 @@
 {
-  "name": "bleno",
+  "name": "@blavorata/bleno",
   "version": "0.5.0",
   "description": "A Node.js module for implementing BLE (Bluetooth Low Energy) peripherals",
   "main": "index.js",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sandeepmistry/bleno"
+    "url": "https://github.com/benoitlavorata/bleno"
   },
   "keywords": [
     "BLE",
@@ -44,7 +44,7 @@
     "debug": "^2.2.0"
   },
   "optionalDependencies": {
-    "bluetooth-hci-socket": "^0.5.1",
+    "@abandonware/bluetooth-hci-socket": "^0.5.3-1",
     "bplist-parser": "0.0.6",
     "xpc-connection": "~0.1.4"
   }
