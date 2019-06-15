@@ -1,7 +1,7 @@
 {
-  "name": "@blavorata/bleno",
+  "name": "rpi-fix-bleno",
   "version": "0.5.1",
-  "description": "A Node.js module for implementing BLE (Bluetooth Low Energy) peripherals",
+  "description": "Fix bluetooth-hci-socket compilation issue on Raspberry pi by replacing with @abandonware/bluetooth-hci-socket",
   "main": "index.js",
   "engines": {
     "node": ">=0.8"
