@@ -1,5 +1,5 @@
 {
-  "name": "rpi-fix-bleno",
+  "name": "rpi-fix-bleno-ts",
   "version": "0.5.1",
   "description": "Fix bluetooth-hci-socket compilation issue on Raspberry pi by replacing with @abandonware/bluetooth-hci-socket",
   "main": "index.js",
@@ -41,6 +41,7 @@
     "node-blink1": "~0.2.2"
   },
   "dependencies": {
+    "@types/node": "*",
     "debug": "^2.2.0"
   },
   "optionalDependencies": {
